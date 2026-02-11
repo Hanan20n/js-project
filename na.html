@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="so">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machadka Shahaadooyinka Diinta</title>
+  <link rel="stylesheet" href="na.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="logo">AL-FURQAAN</div>
+    <nav>
+      <a href="#home">Hoyga</a>
+      <a href="#services">Adeegyada</a>
+      <a href="#apply">Dalbo Shahaado</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <h1>Ku Soo Dhawaaw Dalbashada Shahaadooyinka</h1>
+    <p>Hel shahaadadaada adigoo gurigaaga jooga. Degdeg iyo hufnaan.</p>
+    <a href="#apply" class="btn-main">Bilow Dalbashada</a>
+  </section>
+
+  <section class="services" id="services">
+    <h2>Noocyada Shahaadooyinka</h2>
+    <div class="card-container">
+      <div class="card">
+        <div class="icon">📖</div>
+        <h3>Shahaadada Quraanka</h3>
+        <p>Ardayda dhammaysay Tasxiixa iyo xifdiga Quraanka Kariimka ah.</p>
+      </div>
+      <div class="card">
+        <div class="icon">🎙️</div>
+        <h3>Shahaadada Qiraa'aadka</h3>
+        <p>Shahaadada toddobada qiraa'o ee kala duwan iyo qawaaidka tajwiidka.</p>
+      </div>
+      <div class="card">
+        <div class="icon">📚</div>
+        <h3>Shahaadada Tafsiirka</h3>
+        <p>Ardayda baratay macnaha iyo sharaxaadda Quraanka Kariimka ah.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="apply-section" id="apply">
+    <div class="form-container">
+      <h2>Foomka Dalbashada</h2>
+      <form id="certForm">
+        <div class="input-group">
+          <label>Magacaaga oo Buuxa</label>
+          <input type="text" id="name" placeholder="Geli magacaaga..." required>
+        </div>
+
+        <div class="input-group">
+          <label>Nooca Shahaadada</label>
+          <select id="course">
+            <option value="Quraanka">Shahaadada Quraanka</option>
+            <option value="Qiraa'aadka">Shahaadada Qiraa'aadka</option>
+            <option value="Tafsiirka">Shahaadada Tafsiirka</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label>Telefoonka</label>
+          <input type="tel" id="phone" placeholder="Tusaale: 061XXXXXXX" required>
+        </div>
+
+        <button type="submit" class="btn-submit">Gudbi Dalabka</button>
+      </form>
+      <div id="statusMessage" class="hidden"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Machadka Al-Furqaan. Xuquuqda oo dhan waa dhowran tahay.</p>
+  </footer>
+
+  <script src="na.js"></script>
+</body>
+
+</html>
